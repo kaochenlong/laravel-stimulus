@@ -4156,7 +4156,7 @@ var _default = /*#__PURE__*/function (_Controller) {
   _createClass(_default, [{
     key: "connect",
     value: function connect() {
-      console.log("hi23");
+      console.log("hi");
     }
   }]);
 

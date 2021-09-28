@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Shopping Cat!</title>
 </head>
 <body>
-    @yield('body')
+    <main class="container mx-auto mt-4">
+        @yield('body')
+    </main>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
